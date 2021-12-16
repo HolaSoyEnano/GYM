@@ -1,6 +1,6 @@
 
 var url = window.location.href;
-var swlocation = '/FreestyleMorelia/sw.js'
+var swlocation = '/GYM/sw.js'
 
 
 if ('serviceWorker' in navigator){
