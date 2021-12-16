@@ -1,0 +1,293 @@
+html{
+	box-sizing: border-box;
+	font-size:62.5%; 
+}
+*,*:before *:after {
+	box-sizing: inherit;
+}
+body{
+	font-family: 'Lato', sans-serif; 
+	line-height: 2;
+}
+img{
+	max-width: 100%;
+}
+
+*Globales*/
+.contenedor{
+	max-width: 120rem;
+	margin: 0 auto;
+}
+h1{
+	font-size: 3.8rem;
+}
+h2{
+	font-size: 3.4rem;
+}
+h3{
+	font-size: 3rem;
+}
+h4{
+	font-size: 1.8rem;
+}
+h6{
+color:white;
+font-size: 0.8rem;
+text-align:right;
+
+
+}
+
+/* utilidades */
+.seccion{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.fw-300{
+	font-weight: 300;
+}
+.centrar-texto{
+	text-align: center;
+}
+
+.boton{
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 1.8rem;
+	padding: 1rem 3rem;
+	margin-top: 3rem;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+
+.boton-amarillo{
+	background-color: red;
+
+}
+
+.d-block{
+display: block!important;
+}
+
+.boton-azul{
+	background-color: #30b4ff;
+
+}
+
+.inicio{
+	background-color: #333;
+	background-size: cover;
+	margin: 0;
+}
+.supremo{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-column-gap:10px;
+}
+
+
+.contenido-header{
+
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.contenido-header h1{
+
+	color: white;
+	padding-bottom: 2rem;
+	max-width: 60rem;
+	line-height: 4rem;
+}
+.barra{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem;
+}
+.navegacion a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.8rem;
+	margin-right: 2rem;
+}
+.navegacion a:last-of-type{
+	margin:0;
+}
+.navegacion a:hover{
+	color:red;
+}
+
+.icono-nosotros{
+	display: flex;
+	justify-content: space-between;
+}
+.icono{
+	flex-basis: calc(33% - 1rem);
+	text-align: center;
+}
+.icono h3{
+	text-transform: uppercase;
+}
+
+.contenedor-anuncios{
+        display: flex;
+	flex-wrap:  wrap;
+        flex-shrink: 0;
+	flex-basis: calc(33.3% - 10px);
+	margin-bottom: 10px;
+        margin-left: 25rem;
+       
+}
+
+.anuncio{
+flex-basis: calc(33.3% - 1rem);
+border: 1px solid #b5b5b5;
+background-color: #f5f5f5;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:  wrap;
+}
+.contenido-anuncio h3, .contenido-anuncio p{
+	margin: 0;
+}
+
+.contenido-anuncio2 h3, .contenido-anuncio2 p{
+color:white;
+background-color:black
+}
+
+
+.precio{
+	color: #30b4ff
+	font-weight: 700;
+}
+.icono-caracteristicas{
+list-style: none;
+padding: 0;
+display: flex;
+justify-content: space-between;
+
+}
+.icono-caracteristicas li{
+	flex: 1;
+	display: flex;
+
+}
+
+
+.ver-todas{
+	display: flex;
+	justify-content: flex-end;
+}
+.imagen-contacto{
+	background-image: url(img/planes_actividades.jpg);
+	background-position: center center ;
+	background-size:  cover;
+	height: 40rem;
+	display: flex;
+	align-items: center;
+}
+.contenido-contacto{
+	flex: 1;
+	color: #fff;
+}
+.contenido-contacto p{
+font-size: 1.8rem;
+
+}
+.seccion-inferior{
+	display: flex;
+	justify-content: space-between;
+}
+
+.seccion-inferior .blog{
+	flex-basis: 60%;
+
+}
+.seccion-inferior .testimonial{
+	flex-basis: calc(40% - 2rem);
+}
+.entrada-blog{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+
+.entrada-blog: last-of-type{
+	margin-bottom: 0;
+}
+.entrada-blog .imagen{
+	flex-basis: 40%;
+}
+
+.entrada-blog .texto-entrada{
+	flex-basis: calc(60% - 3rem);
+
+}
+.entrada-blog a{
+	color: black;
+	text-decoration: none;
+}
+.entrada-blog{
+	margin: 0;
+	line-height: 1.4;
+}
+.texto-entrada h4::after {
+	content: ' ';
+	display: block;
+	width: 15rem;
+	height: .5rem;
+	background-color: #30b4ff;
+	margin-top: 1rem;
+}
+.texto-entrada span{
+	color: #E08790;
+
+}
+.testimonial{
+	background-color: #30b4ff;
+	font-size: 1.4rem;
+	padding: 2rem;
+	color: white;
+	border-radius: 2rem;
+}
+
+.testimonial p{
+	text-align: right;
+}
+
+.testimonial blockquote::before{
+    content: '';
+    background-image: url(img/comilla.svg);
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: -2rem;
+}
+
+.testimonial blockquote{
+	position: relative;
+	padding-left: 5rem;
+	font-weight: 300;
+}
+.contenido-footer{
+	padding: 3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.site-footer{
+	background-color: #333;
+	margin: 0;
+}
+.copyright {
+	margin: 0;
+	color: #fff;
+	font-size: 1.5rem;
+}
