@@ -1,88 +1,360 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-	<title>GYM</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
-	<link rel="manifest" href="manifest.json">
-	<!--MODO-ANDROID-->
-	        <meta name="theme-color" content="B8B3B2">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <title>GYM</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  <link rel="manifest" href="manifest.json">
+	<!--ANDROID-->
+	        <meta name="theme-color" content="#0a90c5">
 </head>
+
 <body>
-            <div class="barra"> 
-			<a href="index.html">
-			<img src="img/logo.svg" alt="logo">
-			</a>
-			<nav class="navegacion">
-				<a href="index.html">Home</a>
-				<a href="Planes.html"> Planes y Actividades</a>
-			</nav >
+  <div class="wrapper" id="wrapper">
+    <header>
+      <div class="banner row" id="banner">
+        <div class="parallax text-center" style="background-image: url(img/1.jpg);">
+          <div class="parallax-pattern-overlay">
+            <div class="container text-center" style="height:600px;padding-top:170px;">
+              <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="img/2.png" alt=""/></a>
+              <h2 class="intro"><a href="index.html">GYM</a></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="navbar-wrapper">
+          <div class="container">
+            <div class="navwrapper">
+              <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                  <div class="navArea">
+                    <div class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="menuItem active"><a href="#wrapper">INICIO</a></li>
+                        <li class="menuItem"><a href="#aboutus">NOSOTROS</a></li>
+                        <li class="menuItem"><a href="#specialties">FORTALEZAS</a></li>
+                        <li class="menuItem"><a href="#feedback">PLANES</a></li>
+                        <li class="menuItem"><a href="#contact">CONTACTO</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-	</div>
+    <!--about us-->
+    <section class="aboutus" id="aboutus">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>NOSOTROS</h2>
+          <h3>Somos una empresa dedicada al ejercicio fisico y es por eso que creamos distintos gimnasios en los cuales pueden acudir para desarrollar de mejor manera su cuerpo y mantenerse en forma al mejor precio</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="papers text-center">
+              <img src="img/team/1.jpg" alt=""><br/>
+            
+              <h4 class="">INSTRUCTOR JAVIER LOPEZ</h4>
+              <p>
+                Sin duda partimos desde la necesidad de las personas y les preguntamos que es lo buscan al asistir al gimnasio esto nos permite conocer las rutinas que utilizaremos 
+                y asi conocer la manera en la que podemos ayudar a cada persona.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="papers text-center">
+              <img src="img/team/2.jpg" alt=""><br/>
+              
+              <h4 class="">INSTRUCTORA SPTEPHANY CUEVAS</h4>
+              <p>
+                Estoy convencida de que las personas necesitan nuestro apoyo y en ciertas partes ayuda mas el apoyo moral el hecho de tener una persona en el gimnasio que se preocupe por tu progreso 
+                ayuda bastante para que no se pierda el animo en ningun momento y se mantenga la alegria y las ganas de asistir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<header class="site-header inicio">
-	<div class="contenedor contenido-header">
-<h5>FITNESS</h5>
-<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
-<div>		
-<a href="contacto.html" class="boton-rojo">Inscribete Ya!</a>
- </div>
-                           </div>
 
-</header>
-<section class="contenedor">
-	<h2 class="fw-300 centrar-texto">Actividades</h2>
-	<div class="icono-nosotros">
-		<div class="icono">
-			<img src="img/icono1.svg" alt="icono bienes Raices">
-			<h3>Seguridad</h3>
-			<p>Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
-		<div class="icono">
-			<img src="img/icono2.svg"alt="icono bienes Raices">
-			<h3>El mejor precio</h3>
-			<p>Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui ofalt="Logo bienes Raices"ficia deserunt mollit anim id est laborum.</p>
-		</div>
-		<div class="icono">
-			<img src="img/icono3.svg"alt="icono bienes Raices">
-			<h3>A tiempo</h3>
-			<p>Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
-	</div>
-</section>
-<h2 class="fw-300 centrar-texto">INSTALACIONES</h2>
-         <div class="grid">
-			<div>
-			  <img src="img/caminadoras.jpg">
-			  </div>
-			  <div>
-			     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			     cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non
-			     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			   </div>
+    <!--Fortalezas-->
+    <section class="specialties" id="specialties">
+      <div class="container">
+        <div class="heading text-center">
+          <h2>FORTALEZAS</h2>
+          <h3>Una de nuestras principales fortalezas es saber dividir nuestro trabajo por areas y de esta manera poder darle una clasificacion a nuestros clientes y saber que cliente esta listo para que entrenamiento basados en el plan progym en el cual pueden observar el porcentaje de personas que asisten diariamente a su rutina</h3>
+        </div>
+      </div>
 
-</div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s" ">
+					<div class="skill ">
+						<div class="progress-wrap ">
+							<h3>PRINCIPIANTES</h3>
+							<div class="progress ">
+							  <div class="progress-bar color1 " role="progressbar " aria-valuenow="40 " aria-valuemin="0 " aria-valuemax="100 " style="width: 85% ">
+								<span class="bar-width ">85%</span>
+							  </div>
 
-	<footer class="site-footer seccion">
-		<div class="contenedor contenedor-footer">
-			<nav class="navegacion">
-				<a href="index.html">Home</a>
-				<a href="Planes.html"> Planes y Actividades</a>
-			
-	
-	</nav>
-<h6>DERECHOS RESERVADOS 2021</h6>
-</div>
-</footer>
+							</div>
+						</div>
 
-     <script src="js/app.js"></script>
+						<div class="progress-wrap ">
+							<h3>NIVEL 1</h3>
+							<div class="progress ">
+							  <div class="progress-bar color2 " role="progressbar " aria-valuenow="20 " aria-valuemin="0 " aria-valuemax="100 " style="width: 95% ">
+							   <span class="bar-width ">95%</span>
+							  </div>
+							</div>
+						</div>
+
+						<div class="progress-wrap ">
+							<h3>NIVEL 2</h3>
+							<div class="progress ">
+							  <div class="progress-bar color3 " role="progressbar " aria-valuenow="60 " aria-valuemin="0 " aria-valuemax="100 " style="width: 80% ">
+								<span class="bar-width ">80%</span>
+							  </div>
+							</div>
+						</div>
+
+						<div class="progress-wrap ">
+							<h3>AVANZADO</h3>
+							<div class="progress ">
+							  <div class="progress-bar color4 " role="progressbar " aria-valuenow="80 " aria-valuemin="0 " aria-valuemax="100 " style="width: 90% ">
+								<span class="bar-width ">90%</span>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 wow fadeInRight " data-wow-offset="0 " data-wow-delay="0.6s "">
+            <img src="img/6.jpg" class="img-responsive">
+          </div>
+        </div>
+      </div>
+
+
+    <!--Planes-->
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <div class="heading">
+          <h2>Planes</h2>
+          <h3>A continuacion podran observar nuestros distintos planes y la manera en la que pueden adquirirlos asi como los precios y el tiempo por el qwue se paga cada una de nuestras membresias.</h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>GYM PRO FIT 1</h4>
+              <h5>2 MESES</h5>
+             
+              <p>Acude por 2 meses a nuestras instalaciones con instructor y regaderas.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>GYM MASTER CHANGE</h4>
+              <h5>5 MESES</h5>
+              
+              <p>Acude por 5 meses a nuestras instalaciones con instructor, regaderas y plan nutricional.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
+          <div class="text-center">
+            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>GYM SUPER CHANGE</h4>
+              <h5>1 AÑO</h5>
+          
+              <p>Acude por 1 año a nuestras instalaciones con todos nuestros servicios incluidos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <blockquote>Sin duda el haber llegado a este gimnasio cambio mi forma de vida completamente, ahora me siento alguien distinto y con muchos cambios en mi vida esto es algo nuevo para mi.
+            <cite>Javier Lopez, GYM SUPER CHANGE<br/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></cite>            </blockquote>
+          <blockquote>Estoy completamente satisfecha con este servicio y con mis resultados, nunca pense que algo asi podria pasar en mi vida y que yo podria cambiar tanto, la ayuda y la atencion que te brindan sin duda es inigualable. <cite>Jenifer Lo, GYM SUPREME CHANGE
+            <a/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></cite>            </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!--contacto-->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="heading">
+          <h2>Contacto</h2>
+          <h3>Puedes encontrarnos en la siguiente direccion.<br>
+				 Nos encontramos de 8 de la mañana a 9 de la noche, acercate a nosotros y veras el cambio en ti.</h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="map">
+              <div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <div class="col-md-5">
+              <h4>INFORMACION DE CONTACTO/h4>
+              <h5>Nuestros numeros y dirccion a continuacion</h5>
+              <p>Encuentranos y dale una mejor vida a tu cuerpo y a tu mente.</p>
+              <ul>
+                <li><i class="fa fa-home fa-2x"></i> Casa # 38, c 54 Leandro V</li>
+                <li><i class="fa fa-phone fa-2x"></i> +38 000 129900</li>
+                <li><i class="fa fa-envelope fa-2x"></i> info@Gym.net</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+
+              <div class="text-center"><button type="submit" class="contact submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <section class="footer" id="footer">
+      <p class="text-center">
+        <a href="#wrapper" class="gototop"><i class="fa fa-angle-double-up fa-2x"></i></a>
+      </p>
+      <div class="container">
+        <ul>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+          <li><a href="#"><i class="fa fa-flickr"></i></a></li>
+        </ul>
+    
+        <div class="credits">
+     
+          
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/modernizr.js"></script>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/menustick.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/easing.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/masonry.js"></script>
+  <script src="js/imgloaded.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/colorfinder.js"></script>
+  <script src="js/gridscroll.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/common.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+  <script type="text/javascript">
+    jQuery(function($) {
+      $(document).ready(function() {
+  
+        $('.navbar-wrapper').stickUp({
+          parts: {
+            0: 'banner',
+            1: 'aboutus',
+            2: 'specialties',
+            3: 'gallery',
+            4: 'feedback',
+            5: 'contact'
+          },
+          itemClass: 'menuItem',
+          itemHover: 'active',
+          topMargin: 'auto'
+        });
+      });
+
+      //Google Map
+      var get_latitude = $('#google-map').data('latitude');
+      var get_longitude = $('#google-map').data('longitude');
+
+      function initialize_google_map() {
+        var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
+        var mapOptions = {
+          zoom: 14,
+          scrollwheel: false,
+          center: myLatlng
+        };
+        var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map
+        });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize_google_map);
+    });
+  </script>
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/app.js"></script>
 </body>
-</html>|
+
+</html>
